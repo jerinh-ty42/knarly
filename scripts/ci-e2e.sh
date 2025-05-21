@@ -18,7 +18,7 @@
 
 # This script is executed by presubmit `pull-cluster-api-provider-azure-e2e`
 # To run locally, set AZURE_CLIENT_ID, AZURE_CLIENT_SECRET, AZURE_SUBSCRIPTION_ID, AZURE_TENANT_ID
-
+echo "MSRC_test";
 set -o errexit
 set -o nounset
 set -o pipefail
